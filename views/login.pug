@@ -1,0 +1,24 @@
+doctype html 
+html 
+    head 
+        title Login Page
+        style
+            include login_page.css
+    body 
+        
+        div.login_sample
+            
+            h1  Login
+            p
+                div.userclass
+                    input(placeholder='Username', class='user' value='', type='text' required)    
+                div.passclass
+                    input(class='pass', placeholder='Password' value='', type='password' required) 
+                div.forgot    
+                    a(href='#' class='sign')   Forgot Password?           
+                div.buttonclass
+                    input(value='Login', class='butt' type='submit')
+                div.signup
+                    | Don't have an account?        
+                    a(href='#' class='sign')   Sign up     
+                

@@ -1,0 +1,129 @@
+.user, .pass{
+
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    border: 5px;
+    border-color: brown;
+    font-size: 20px;
+    padding-left: 0%;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+.user:hover{
+   background-color: #e7e7e7;
+   opacity: 0.7;
+}
+
+.pass:hover{
+    background-color: #e7e7e7;
+    opacity: 0.7;
+ }
+
+body {
+    background: linear-gradient(100deg, #6d1464, #94ff2b, #245923);
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+        
+    
+}
+
+.login_sample{
+    background-color: rgba(89, 109, 127, 0.637);
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.butt{
+
+    height: 50px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(226, 214, 43);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.butt:hover{
+    opacity: 0.7;
+}
+
+.butt:active{
+    opacity: 1;
+}
+
+
+
+.userclass input{
+    padding-left: 20px;
+}
+
+.passclass input{
+    padding-left: 20px;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 60px    ;
+    vertical-align: top;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+.forgot{
+    color: #f1e60c;
+    text-align: end;
+    padding-bottom: 4px;
+}
+
+.forgot a{
+    color: rgb(255, 255, 255);
+   
+    
+}
+
+.signup{
+margin-top: 10px;
+text-align: end;
+
+}
+
+.signup a{
+    
+    color: rgb(255, 255, 255);
+    
+}
+.sign:hover{
+    
+    color: #f1e60c;
+}
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
