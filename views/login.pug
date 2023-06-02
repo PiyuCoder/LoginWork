@@ -10,15 +10,18 @@ html
             
             h1  Login
             p
-                div.userclass
-                    input(placeholder='Username', class='user' value='', type='text' required)    
-                div.passclass
-                    input(class='pass', placeholder='Password' value='', type='password' required) 
-                div.forgot    
-                    a(href='#' class='sign')   Forgot Password?           
-                div.buttonclass
-                    input(value='Login', class='butt' type='submit')
-                div.signup
-                    | Don't have an account?        
-                    a(href='#' class='sign')   Sign up     
+                form(method = "POST", action="/user") 
+                    div.userclass
+                        input(placeholder='Username', class='user' value='', type='text' required, name='name')    
+                    div.passclass
+                        input(class='pass', placeholder='Password' value='', type='password' required, name='email')
+                    div.phoneclass
+                        input(class='phon', placeholder='Phone number' value='', type='number' required, name='phone') 
+                    div.forgot    
+                        a(href='#' class='sign')   Forgot Password?           
+                    div.buttonclass
+                        input(value='Login', class='butt' type='submit')
+                    div.signup
+                        | Don't have an account?        
+                        a(href='#' class='sign')   Sign up     
                 
